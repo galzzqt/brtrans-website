@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npm run build:css && npm run build:js",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "build:css": "postcss src/styles.css -o dist/css/main.css"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
